@@ -1,4 +1,4 @@
-package com.example.plugin;
+package com.zyro.youtube;
 
 import dev.arbjerg.lavalink.api.ISocketContext;
 import dev.arbjerg.lavalink.api.PluginEventHandler;

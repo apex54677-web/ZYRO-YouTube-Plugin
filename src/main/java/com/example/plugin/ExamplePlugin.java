@@ -1,3 +1,4 @@
+
 package com.zyro.youtube;
 
 import dev.arbjerg.lavalink.api.ISocketContext;
@@ -8,16 +9,16 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 @Service
-public class ExamplePlugin extends PluginEventHandler {
+public class ZyroYouTubePlugin extends PluginEventHandler {
 
-    private static final Logger log = LoggerFactory.getLogger(ExamplePlugin.class);
+    private static final Logger log = LoggerFactory.getLogger(ZyroYouTubePlugin.class);
 
-    public ExamplePlugin() {
-        log.info("Hello, world!");
+    public ZyroYouTubePlugin() {
+        log.info("ZYRO YouTube Plugin loaded!");
     }
 
     @Override
     public void onWebSocketOpen(@NotNull ISocketContext context, boolean resumed) {
-        log.info("Websocket opened!");
+        log.info("ZYRO WebSocket opened!");
     }
 }

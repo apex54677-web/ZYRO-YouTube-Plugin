@@ -14,7 +14,7 @@ lavalinkPlugin {
 
 java {
     toolchain {
-        languageVersion = JavaLanguageVersion.of(17)
+        languageVersion.set(JavaLanguageVersion.of(21)
     }
 }
 
